@@ -1,13 +1,24 @@
-password = 'Herbitusin2019$'
+password = 'kotas'
 user_password = input('Proszę o podanie hasła: ')
+# count = 1
 
-while user_password != password:
-    user_password = input('Hasło nieprawidłowe. Proszę o ponowne podanie hasła: ')
+if user_password == password:
+    print('Gratulacje, PIN jest poprawny!')
+else:
+    count = 2
+    user_password = input(f'Hasło nieprawidłowe. Zostało ci jeszcze {count} prób. Proszę o ponowne podanie hasła: ')
+    while count < 3:
+        if user_password == password:
+            print('Gratulacje, PIN jest poprawny!')
+            break
 
-print('Gratulacje, podałeś prawidłowe hasło.')
+        else:
+            user_password = input(f'Hasło nieprawidłowe. Zostało ci jeszcze {count - 1} prób. Proszę o ponowne podanie hasła: ')
+        count += 1
+        print('Podałeś 3 razy nierprawidłowe hasło. Karta została zablokowana.')
 
 
 
-
-
-
+# pupa
+# dupa
+# noga
