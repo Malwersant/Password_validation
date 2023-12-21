@@ -17,8 +17,6 @@ else:
         count += 1
         print('Podałeś 3 razy nierprawidłowe hasło. Karta została zablokowana.')
 
-
-
-# pupa
-# dupa
-# noga
+#
+# Jeszcze nie działa przejście z drugiiego na trzeci licznik
+# Mimo podania prawidłowego hasła w trzeciej próbie i tak dostaję komunikat, że  razy nieprawidłowe hasło podane i karta zablokowana.
