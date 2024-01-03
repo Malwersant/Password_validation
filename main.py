@@ -14,3 +14,4 @@ else:
 
     if count == 3:
         print('Podałeś 3 razy nierprawidłowe hasło. Karta została zablokowana.')
+# To już działa
